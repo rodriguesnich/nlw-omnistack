@@ -1,0 +1,4 @@
+{
+    "type": "sqLite",
+    "database": "./src/database/database.sqlite"
+}
