@@ -20,13 +20,12 @@ export default function Home() {
       <CountDownProvider>
         <section>
           <div>
-            <Profile />
+            <Profile className="profile" />
             <CompletedChallenges />
+            <ChallengeBox />
             <CountDown />
           </div>
-          <div>
-            <ChallengeBox />
-          </div>
+
         </section>
       </CountDownProvider>
     </div>
